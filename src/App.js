@@ -1,6 +1,7 @@
 import "./App.css";
 import Google from "./components/Google";
 import Header from "./components/Header";
+import Search from "./components/Search";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
 
       <Google />
+
     </div>
   );
 }
