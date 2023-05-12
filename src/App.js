@@ -1,7 +1,8 @@
 import "./App.css";
+import Footer from "./components/Footer";
 import Google from "./components/Google";
+import GoogleBtwn from "./components/GoogleBtwn";
 import Header from "./components/Header";
-import Search from "./components/Search";
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
 
       <Google />
 
+      <GoogleBtwn />
+      
+      <Footer />
     </div>
   );
 }

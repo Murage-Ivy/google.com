@@ -5,8 +5,6 @@ import '../index.css'
 function Header() {
     return (
         <div className="header-container">
-
-
             <div className='header'>
                 <div className="header-to-left">
                     <div className="header-left">
